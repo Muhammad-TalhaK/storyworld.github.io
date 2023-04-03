@@ -442,7 +442,7 @@ section .title::after{
 
     /* home section */
     .home_header_info{
-        width: 500px;
+        width: 440px;
     }
     .home_header_info h1 {
         font-size: 20px;
@@ -452,7 +452,7 @@ section .title::after{
         width:590px;
     } */
     .home_header_info p {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 30px;
         width: 100%;
         margin: 0 auto;
