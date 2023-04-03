@@ -73,6 +73,7 @@ header {
 
 nav {
     position: fixed;
+    top:0;
     z-index: 99;
     width: 100%;
     padding: 30px 0;
@@ -415,7 +416,7 @@ section .title::after{
         left: -100%;
         transition: all 0.5s ease;
     }
-
+    
     .nav-active {
         left: 0;
     }
@@ -447,7 +448,9 @@ section .title::after{
         font-size: 20px;
         line-height: 30px;
     }
-
+    /* .home-menu-par{
+        width:590px;
+    } */
     .home_header_info p {
         font-size: 14px;
         line-height: 30px;
@@ -530,8 +533,12 @@ section .title::after{
         color: #fff;
         font-size: 30px;
     }
-    /* home section */
-    .home_header_info{
-        width: 800px;
+    .home_header_info h1 {
+        font-size: 22px;
+        line-height: 20px;
     }
+    /* home section
+    .home_header_info{
+        width: 600px;
+    } */
 }
