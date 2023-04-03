@@ -403,7 +403,9 @@ section .title::after{
 
 
 /* Responsive media queries */
-@media screen and (max-width:913px) {
+@media screen  and (max-width: 913px)
+/* @media screen and (max-width:913px)  */
+{
 
     /* navbar */
     .nav {
@@ -442,17 +444,19 @@ section .title::after{
 
     /* home section */
     .home_header_info{
-        width: 440px;
+        width: 100%;
+        margin-top:100px
     }
     .home_header_info h1 {
         font-size: 20px;
         line-height: 30px;
+        width: 345px;
     }
     /* .home-menu-par{
         width:590px;
     } */
     .home_header_info p {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 30px;
         width: 100%;
         margin: 0 auto;
@@ -537,8 +541,5 @@ section .title::after{
         font-size: 22px;
         line-height: 20px;
     }
-    /* home section
-    .home_header_info{
-        width: 600px;
-    } */
+    
 }
